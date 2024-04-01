@@ -1,0 +1,9 @@
+[build]
+  # Base directory where Netlify installs dependencies and runs the build command
+  base = "ytb_clone_frontend"
+
+  # Build command for your project
+  command = "CI=false npm run build"  # or any other build command you use in your project
+
+  # Publish directory where the built files will be deployed from
+  publish = "build"  # or any other directory where your build artifacts are located
